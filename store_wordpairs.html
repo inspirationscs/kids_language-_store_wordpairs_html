@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<!-- Required meta tags -->	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+<title>EduKids</title>
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+	
+<!-- Bootstrap CSS -->	
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">	
+<link href="font/font_awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="font/font_awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- Bootstrap jquery -->		
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>		
+</head>
+
+<body>
+<div class="banner">
+	<img src="images/banner_pic.png" alt="">
+	
+<div class="container">
+	<div class="menu">
+		<a href="index.html" class="logo">
+			EduKids
+		</a>
+		<div class="btn_nav">
+			<ul>
+				<li>
+					<a href="store_wordpairs.html">
+						Store Wordpairs 
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Test  
+					</a>
+				</li>
+				<li>
+					<a href="#"  data-toggle="modal" data-toggle="modal" data-target="#staticBackdrop">
+						Log In
+					</a>
+					
+					<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<h5 class="modal-title w-100 text-center" id="staticBackdropLabel">Sign In</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
+						  </div>
+						  <div class="modal-body">
+							<form class="custom_login">
+							  <div class="form-group">
+								<label for="exampleInputEmail1 text-left">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1">
+							  </div>
+							  <div class="form-group form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+							  </div>
+							  <button type="submit" class="btn w-100 btn-primary">Sign In</button>
+							 	<a href="#" class="forget">Forgot password ?</a>
+							</form>
+						  </div>
+						  <div class="modal-footer">
+							<h6 class="modal-title w-100 text-center">or loging  with</h6>
+							 <div class="socal">
+							  <ul>
+							  	<li>
+									<a href="#">
+										<img src="images/google_icon.png" alt="">
+										Google
+									</a>  
+								</li>
+								 <li>
+									<a href="#">
+										<img src="images/facebook_icon.png" alt="">
+										Facebook
+									</a>  
+								</li>
+							  </ul>
+							</div>  
+						  </div>
+						</div>
+					  </div>
+					</div>
+
+					
+					
+				</li>
+				
+				<li>
+					<a href="#"  data-toggle="modal" data-target="#staticBackdrop2">
+						Sign Up
+					</a>
+					
+							<div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<h5 class="modal-title w-100 text-center" id="staticBackdropLabel2">Sign Up</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
+						  </div>
+						  <div class="modal-body">
+							<form class="custom_login">
+							  <div class="form-group">
+								<label for="exampleInputEmail1 text-left">Name</label>
+								<input type="text" class="form-control" id="formGroupExampleInput" placeholder=" Enter your name">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputEmail1 text-left">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputEmail1 text-left">Username</label>
+								<input type="text" class="form-control" id="formGroupExampleInput" placeholder=" Enter Username">
+							  </div>
+							  <div class="form-group">
+								<label for="exampleInputPassword1"> Enter Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1">
+							  </div>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Confirm Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1">
+							  </div>
+							<button type="submit" class="btn w-100 btn-primary">Sign UP</button>
+							 	
+							</form>
+						  
+						  <div class="modal-footer">
+							<h6 class="modal-title w-100 text-center">or sing up  with</h6>
+							 <div class="socal">
+							  <ul>
+							  	<li>
+									<a href="#">
+										<img src="images/google_icon.png" alt="">
+										Google
+									</a>  
+								</li>
+								 <li>
+									<a href="#">
+										<img src="images/facebook_icon.png" alt="">
+										Facebook
+									</a>  
+								</li>
+							  </ul>
+							</div>  
+						  </div>
+						</div>
+					  </div>
+					</div>
+				</div>
+				</li>
+			</ul>
+		</div>
+		
+	</div>	
+</div>	
+</div>	
+
+	
+	
+<div class="store_Wordpairs_details">
+	<div class="container">
+		<div class="store_Wordpairs_details_bg">
+			<div class="store_Wordpairs_details_bg_language_conten">
+				<div class="language_from_2">
+					<from>
+						<input type="text" value="" placeholder="Enter text *..." onblur="this.placeholder=!this.placeholder?'Enter text*... ':this.placeholder;" onfocus="this.select()" onclick="this.placeholder='';" name="name" required="">
+					</from>
+				</div>
+				
+				<div class="language_from_2">
+					<from>
+						<input type="text" value="" placeholder="Enter Translate *..." onblur="this.placeholder=!this.placeholder?'Enter Translate*... ':this.placeholder;" onfocus="this.select()" onclick="this.placeholder='';" name="name" required="">
+					</from>
+				</div>
+				
+				<div class="store_Wordpairs_button">
+					<ul>
+						<li>
+							<a href="#"> Submit </a>
+						</li>
+						<li>
+							<a href="#"> Delete </a>
+						</li>
+					</ul>
+				</div>
+			</div>		
+		</div>
+		
+	
+	</div>	
+</div>	
+	
+	
+<div class="footer">
+	<img src="images/footer_pic.png" alt="">
+	<div class="container">
+		<div class="footer_content">
+			<a href="index.html" class="footer_logo">
+				EduKids
+			</a>
+			<div class="footer_buttom">
+				<div class="footer_buttom_text">
+					<p>Copyright © 2021 Edikids GLOBAL</p>
+				</div>
+				<div class="footer_buttom_icon">
+					<ul>
+					   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				  	   <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+				  	   <li> <a href="#"><i class="fa fa-google-plus"></i></a></li>
+				       <li> <a href="#"><i class="fa fa-instagram "></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+	
+<div id="stop" class="scrollTop"></div>	
+	
+<script src="jsLibrary/top_head.js"></script>	
+	
+</body>
+</html>

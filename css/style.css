@@ -1,0 +1,1541 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+::-moz-selection {
+	background:rgba(0,0,0,0);
+	}
+::selection { 
+	background:rgba(0,0,0,0);
+	} 	
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+   	font-family: 'DM Sans', sans-serif;
+    color: #5a5a5a;
+	font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+a {
+    border: none;
+    outline: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+}
+
+.banner{ 
+	height: auto;
+	overflow:hidden;
+	background: #ffffff;
+	padding-bottom:0;
+	position: relative;
+}
+
+.banner img {
+    width: 2100px;
+    left: 50%;
+    position: relative;
+    margin: 0 0 0 -1050px;
+    display: block;
+}
+.banner .container{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.banner .menu{
+	background: #fff;
+	box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+	-webkit-box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+	-moz-box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+	overflow: hidden;
+	border-radius: 8px;
+	padding:10px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+
+.banner .menu .logo{
+	font-family: 'Caveat', cursive;
+	font-size: 44px;
+	color: #341c77;
+	font-weight: 700;
+}
+
+.banner .menu .btn_nav{
+	
+}
+
+.banner .menu .btn_nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.banner .menu .btn_nav ul li {
+    margin-right: 20px;
+    overflow: hidden;
+    margin-bottom: 1px;
+}
+
+.banner .menu .btn_nav ul li a{
+    color: #341c77;
+    font-size: 23px;
+    padding: 5px 20px;
+    /* overflow: hidden; */
+    display: block;
+	 border: 1px solid #341c77;
+    font-family: 'Caveat', cursive;
+	border-radius: 3px;
+	    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+
+.banner .menu .btn_nav ul li a:hover{
+	background: #341c77;
+    color: #fff;
+}
+
+.banner .menu .btn_nav ul li:nth-child(3){
+	
+}
+
+.banner .menu .btn_nav ul li:nth-child(3) a {
+    background: #341c77;
+    color: #fff;
+	   -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.banner .menu .btn_nav ul li:nth-child(3) a:hover{
+	background: #f86606;
+    color: #fff;
+}
+
+
+.banner .menu .btn_nav ul li:last-child{
+	
+}
+
+.banner .menu .btn_nav ul li:last-child a{
+		color: #fff;
+		background: #e04f6e;
+	-webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.banner .menu .btn_nav ul li:last-child a:hover{
+	background: #f86606;
+    color: #fff;
+}
+
+
+.translate_sec{
+	padding: 80px 0;
+	overflow: hidden;
+}
+
+.translate_sec ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.translate_sec ul li {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.translate_sec ul li:last-child{
+	margin-bottom: 0;
+}
+.translate_sec ul li .language {
+    background: url(../images/language_1.png);
+    background-size: 100% !important;
+    height: 166px;
+    background-repeat: no-repeat !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+
+}
+.translate_sec ul li:nth-child(2) .language {
+	 background: url(../images/language_2.png);
+}
+.translate_sec ul li:nth-child(3) .language {
+	 background: url(../images/language_3.png);
+}
+.translate_sec ul li:nth-child(4) .language {
+	 background: url(../images/language_4.png);
+}
+.translate_sec ul li:nth-child(5) .language {
+	 background: url(../images/language_5.png);
+}
+.translate_sec ul li:nth-child(6) .language {
+	 background: url(../images/language_6.png);
+}
+.translate_sec ul li:nth-child(7) .language {
+	 background: url(../images/language_7.png);
+}
+.translate_sec ul li:nth-child(8) .language {
+	 background: url(../images/language_8.png);
+}
+.translate_sec ul li:nth-child(9) .language {
+	 background: url(../images/language_9.png);
+}
+.translate_sec ul li:nth-child(10) .language {
+	 background: url(../images/language_10.png);
+}
+
+.translate_sec ul li .language .language_content {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+}
+.translate_sec ul li .language .language_content .language_from, .translate_sec ul li .language .language_content .language_text{
+    width: 49%;
+	position: relative;
+}
+
+.translate_sec ul li .language .language_content .language_from::after {
+    content: "";
+    background: url("../images/language_after.png");
+    height: 119px;
+    width: 4px;
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+
+
+.translate_sec ul li .language .language_content .language_from from{
+	position: relative;
+}
+
+.translate_sec ul li .language .language_content .language_from from::after {
+    content: "";
+    background: url("../images/language_keyboard.png");
+    height: 16px;
+    width: 26px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+    background: #fff;
+    padding: 10px 20px;
+    color: #666;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: 300;
+    width: 90%;
+    border: 2px solid #ededed;
+    line-height: 47px;
+    box-sizing: border-box;
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+		box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+	-webkit-box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+	-moz-box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+}
+
+
+.translate_sec ul li .language .language_content .language_text{
+	
+}
+
+.translate_sec ul li .language .language_content .language_text h2{
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  color: #483682;
+	margin-bottom: 0;
+	
+}
+
+
+.footer{ 
+	height: auto;
+	overflow:hidden;
+	background: #483682;
+	padding-bottom:0;
+	position: relative;
+}
+
+.footer img {
+    width: 2100px;
+    left: 50%;
+    position: relative;
+    margin: 0 0 0 -1050px;
+    display: block;
+}
+
+
+.footer .container{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.footer .footer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 140px 0 0 0;
+	
+}
+.footer .footer_content .footer_logo{
+	font-family: 'Caveat', cursive;
+	font-size:88px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	
+}
+
+.footer .footer_content .footer_buttom {
+    width: 100%;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.footer .footer_content .footer_buttom  .footer_buttom_text{
+	
+}
+.footer .footer_content .footer_buttom  .footer_buttom_text p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer_content .footer_buttom .footer_buttom_icon {
+	
+}
+
+.footer .footer_content .footer_buttom .footer_buttom_icon ul{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.footer .footer_content .footer_buttom .footer_buttom_icon ul li{
+	margin-right: 20px;
+}
+.footer .footer_content .footer_buttom .footer_buttom_icon ul li a{
+	color: #fff;
+	-webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+	
+}
+.footer .footer_content .footer_buttom .footer_buttom_icon ul li a:hover{
+	color: #f86606;
+
+}
+
+
+form.custom_login label {
+    display: block;
+    margin-bottom: .5rem;
+    text-align: left;
+}
+form.custom_login .text-muted {
+    color: #6c757d!important;
+    text-align: left;
+}
+
+form.custom_login .form-check-input {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    top: 4px;
+    left: 0;
+}
+
+form.custom_login button.btn.btn-primary {
+    display: block;
+
+	background:#341c77 !important;
+}
+
+form.custom_login a.forget {
+    background: none !important;
+    border: none !important;
+    color: #341c77 !important;
+    float: left;
+    padding: 10px 0 0 0 !important;
+	font-family: 'DM Sans', sans-serif !important;
+	font-size: 12px !important;
+}
+.socal {
+    width: 100%;
+}
+.socal ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+width: 100%;
+}
+
+.socal ul li {
+  width: 44%;
+  margin-right:0 !important;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.socal ul li a {
+    padding: 12px 40px !important;
+    color: #341c77 !important;
+    background: #fff !important;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 17px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+		-webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.socal ul li a:hover {
+	color: #fff !important;
+    background: #341c77 !important;
+}
+
+.socal ul li a img {
+    left: 0 !important;
+    width: auto !important;
+    margin: 0 !important;
+	float: left ;
+	padding-right: 9px;
+}
+
+/*--------------------------Store Wordpairs  start-----------------------*/
+
+.store_Wordpairs_details {
+	padding: 80px 0;
+	overflow: hidden;
+	
+}
+
+
+.store_Wordpairs_details .store_Wordpairs_details_bg {
+    background: url(../images/store_Wordpairs_details_bg.png);
+    background-size: cover !important;
+    height: auto;
+    background-repeat: no-repeat !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+    width: 31%;
+    position: relative;
+}
+
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from {
+	position: relative;
+}
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+    background: #fff;
+    padding: 10px 20px;
+    color: #666;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: 300;
+    width: 100%;
+    border: 2px solid #ededed;
+    line-height: 47px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+    -moz-box-shadow: -5px 4px 37px -2px rgba(0,0,0,0.51);
+    height: 100px;
+}
+
+.store_Wordpairs_details .store_Wordpairs_button {
+    overflow: hidden;
+    padding: 0 0 0 0;
+}
+.store_Wordpairs_details .store_Wordpairs_button ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.store_Wordpairs_details .store_Wordpairs_button ul li {
+    margin-right: 20px;
+}
+
+.store_Wordpairs_details .store_Wordpairs_button ul li a{
+	color: #341c77;
+    font-size: 23px;
+    padding: 10px 40px;
+    overflow: hidden;
+    display: block;
+    border: 1px solid #341c77;
+    font-family: 'Caveat', cursive;
+    border-radius: 3px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.store_Wordpairs_details .store_Wordpairs_button ul li a:hover{
+	background: #341c77;
+    color: #fff;
+}
+
+
+/*--------------------------Store Wordpairs  end-----------------------*/
+
+@media only screen and (min-width:2048px) {
+	
+	
+	
+	
+}
+
+
+
+@media only screen and (min-width:1600px) and (max-width:2047px) {
+	
+	
+}
+
+@media only screen and (min-width:1440px) and (max-width:1599px) {
+	
+	
+	
+}
+
+@media only screen and (min-width:1246px) and (max-width:1439px) {
+	
+	
+}
+
+
+@media only screen and (min-width:1171px) and (max-width:1245px) {
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+	width: 27%;
+	position: relative;
+}	
+		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 70px;
+}	
+}
+
+
+@media only screen and (min-width:960px) and (max-width:1170px) {
+	.banner img {
+    width: 1700px;
+    margin: 0 0 0 -850px;
+	}
+	.banner .menu {
+	padding: 10px 10px;
+	}		
+
+	.banner .menu .btn_nav ul li a {
+		font-size: 20px;
+		padding: 5px 10px;
+	}
+
+.translate_sec ul li .language {
+	background: url(../images/language_1.png);
+	background-size: 100% !important;
+	padding: 10px;
+	height: auto;
+}
+.translate_sec ul li .language .language_content {
+	height: 100%;
+	padding: 8px;
+}
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 79px;
+	width: 4px;
+	position: absolute;
+	top: -4px;
+	right: 0;
+}	
+
+.footer img {
+    width: 1700px;
+    margin: 0 0 0 -850px;
+	}	
+.footer .footer_content {
+	padding: 80px 0 0 0;
+}	
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg {
+	background: url(../images/store_Wordpairs_details_bg.png);
+	background-size: cover !important;
+	height: auto;
+	background-repeat: no-repeat !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	overflow: hidden;
+}	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 16px;
+}	
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+	width: 23%;
+	position: relative;
+}	
+	
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 70px;
+}	
+}
+
+
+@media only screen and (min-width:769px) and (max-width:959px) {
+.banner img {
+    width: 1300px;
+	margin: 0 0 0 -650px;
+	}	
+
+	.banner .menu {
+	padding: 10px 10px;
+	}		
+
+.banner .menu .btn_nav ul li a {
+		font-size: 20px;
+		padding: 5px 10px;
+	}
+
+.translate_sec ul li .language {
+	background: url(../images/language_1.png);
+	background-size: 100% !important;
+	padding: 10px;
+	height: auto;
+}
+.translate_sec ul li .language .language_content {
+	height: 100%;
+	padding: 8px;
+}
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 79px;
+	width: 4px;
+	position: absolute;
+	top: -4px;
+	right: 0;
+}	
+
+.footer img {
+    width: 1300px;
+    margin: 0 0 0 -650px;
+	}	
+.footer .footer_content {
+	padding: 70px 0 0 0;
+}	
+.footer .footer_content .footer_logo {
+	font-size: 48px;
+}	
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg {
+	background: url(../images/store_Wordpairs_details_bg.png);
+	background-size: cover !important;
+	height: auto;
+	background-repeat: no-repeat !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	overflow: hidden;
+}		
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 16px;
+}	
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+	width: 23%;
+	position: relative;
+}	
+	
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 57px;
+}	
+}
+
+@media only screen and (min-width:641px) and (max-width:768px) {
+	
+	.banner img {
+    width: 1100px;
+	margin: 0 0 0 -550px;
+	}
+	
+	.banner .menu {
+	padding: 10px 10px;
+	}
+	
+.banner .menu .logo {
+	font-size: 30px;
+}	
+	
+	
+.banner .menu .btn_nav ul li {
+	margin-right: 10px;
+	overflow: hidden;
+}	
+
+.banner .menu .btn_nav ul li a {
+	font-size: 18px;
+	padding: 5px 10px;
+}
+
+	
+	
+.translate_sec ul li {
+	margin-bottom: 20px;
+}	
+	
+.translate_sec ul li .language {
+	background: url(../images/language_1.png);
+	background-size: 100% !important;
+	padding: 10px;
+	height: auto;
+}
+.translate_sec ul li .language .language_content {
+	height: 100%;
+	padding: 0px;
+}
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 79px;
+	width: 4px;
+	position: absolute;
+	top: -4px;
+	right: 0;
+}	
+.translate_sec ul li .language .language_content .language_text h2 {
+	font-size: 23px;
+}
+	
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+	background: #fff;
+	padding: 0px 18px;
+}	
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 48px;
+	width: 4px;
+	position: absolute;
+	top: 1px;
+	right: 0;
+}	
+	
+	
+.footer img {
+    width: 1300px;
+    margin: 0 0 0 -650px;
+	}	
+.footer .footer_content {
+	padding: 70px 0 0 0;
+}	
+.footer .footer_content .footer_logo {
+	font-size: 48px;
+}	
+
+.store_Wordpairs_details .store_Wordpairs_details_bg {
+	background: url(../images/store_Wordpairs_details_bg.png);
+	background-size: cover !important;
+	height: auto;
+	background-repeat: no-repeat !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	overflow: hidden;
+}		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 20px;
+	flex-direction: column;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+	width: 100%;
+	position: relative;
+	margin-bottom: 25px;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2:last-child {	
+	margin-bottom: 0;
+}
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 240px;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 16px;
+}	
+	
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 57px;
+}	
+	
+	
+}
+
+@media only screen and (min-width:481px) and (max-width:640px) {
+	
+.banner img {
+    width: 880px;
+	margin: 0px 0 0 -440px;
+	}	
+	
+.banner .menu {
+	background: #fff;
+	padding: 10px 10px;
+}	
+.banner .menu .logo {
+	font-size: 30px;
+}	
+	
+	
+.banner .menu .btn_nav ul li {
+	margin-right: 10px;
+	overflow: hidden;
+}	
+
+.banner .menu .btn_nav ul li a {
+	font-size: 18px;
+	padding: 5px 6px;
+}
+
+	
+.translate_sec {
+	padding: 40px 0;
+	overflow: hidden;
+}	
+.translate_sec ul li {
+	margin-bottom: 20px;
+}	
+	
+.translate_sec ul li .language {
+	background: url(../images/language_1.png);
+	background-size: 100% !important;
+	padding: 10px;
+	height: auto;
+}
+.translate_sec ul li .language .language_content {
+	height: 100%;
+	padding: 0px;
+}
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 79px;
+	width: 4px;
+	position: absolute;
+	top: -4px;
+	right: 0;
+}	
+.translate_sec ul li .language .language_content .language_text h2 {
+	font-size: 23px;
+}
+	
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+	background: #fff;
+	padding: 0px 18px;
+}	
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 48px;
+	width: 4px;
+	position: absolute;
+	top: 1px;
+	right: 0;
+}	
+	
+	
+.footer img {
+    width: 1300px;
+    margin: 0 0 0 -650px;
+	}	
+.footer .footer_content {
+	padding: 70px 0 0 0;
+}	
+.footer .footer_content .footer_logo {
+	font-size: 48px;
+}	
+		
+.store_Wordpairs_details .store_Wordpairs_details_bg {
+	background: url(../images/store_Wordpairs_details_bg.png);
+	background-size: cover !important;
+	height: auto;
+	background-repeat: no-repeat !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	overflow: hidden;
+}		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 20px;
+	flex-direction: column;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+	width: 100%;
+	position: relative;
+	margin-bottom: 25px;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2:last-child {	
+	margin-bottom: 0;
+}
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 16px;
+}	
+		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 57px;
+}	
+	
+	
+}
+
+
+@media only screen and (min-width:360px) and (max-width:480px) {
+	
+.banner img {
+    width: 880px;
+	margin: 0px 0 0 -440px;
+	}
+	
+.banner .menu {
+	background: #fff;
+	padding: 5px 5px;
+}	
+.banner .menu .logo {
+	font-size: 17px;
+}	
+.btn {
+	padding: 2px;
+}	
+	
+
+	
+	
+.banner .menu .btn_nav ul li {
+	margin-right: 5px;
+	overflow: hidden;
+}
+
+.banner .menu .btn_nav ul li a {
+	font-size: 17px;
+	padding: 5px 4px;
+}
+
+	
+.translate_sec {
+	padding: 40px 0;
+	overflow: hidden;
+}	
+.translate_sec ul li {
+	margin-bottom: 20px;
+}	
+	
+.translate_sec ul li .language {
+	background: url(../images/language_1.png);
+	background-size: 100% !important;
+	padding: 3px;
+	height: auto;
+}
+.translate_sec ul li .language .language_content {
+	height: 100%;
+	padding: 0px;
+}
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 79px;
+	width: 4px;
+	position: absolute;
+	top: -4px;
+	right: 0;
+}	
+.translate_sec ul li .language .language_content .language_text h2 {
+	font-size: 19px;
+}
+	
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+	background: #fff;
+	padding: 0px 18px;
+}	
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 42px;
+	width: 4px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.translate_sec ul li .language .language_content .language_from from::after {
+	height: 14px;
+	width: 16px;
+	top: 19px;
+	right: 9px;
+	background-size: 100%;
+	background-repeat: no-repeat !important;
+}
+	
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+	background: #fff;
+	padding: 10px 20px;
+	line-height: 19px;
+}	
+	
+	
+	
+	
+.footer img {
+    width: 1300px;
+    margin: 0 0 0 -650px;
+	}	
+.footer .footer_content {
+	padding: 70px 0 0 0;
+}	
+.footer .footer_content .footer_logo {
+	font-size: 48px;
+}	
+.footer .footer_content .footer_buttom .footer_buttom_icon ul li {
+	margin-right: 10px;
+}	
+
+.store_Wordpairs_details {
+	padding: 40px 0;
+	overflow: hidden;
+}	
+.store_Wordpairs_details .store_Wordpairs_details_bg {
+	background: url(../images/store_Wordpairs_details_bg.png);
+	background-size: cover !important;
+	height: auto;
+	background-repeat: no-repeat !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	overflow: hidden;
+}		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 20px;
+	flex-direction: column;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+	width: 100%;
+	position: relative;
+	margin-bottom: 25px;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2:last-child {	
+	margin-bottom: 0;
+}
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 16px;
+}	
+		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 57px;
+}			
+.store_Wordpairs_details .store_Wordpairs_button ul li {
+	margin-right: 20px;
+	width: 44%;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_button ul li:last-child {
+	margin-right: 0;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_button ul li a {
+	font-size: 22px;
+	padding: 10px 34px;
+	display: block;
+	border: 1px solid #341c77;
+}	
+	
+}
+
+
+@media only screen and (min-width:321px) and (max-width:359px) {
+
+	.banner img {
+    width: 560px;
+	margin: 0px 0 0 -280px;
+	}
+.banner .menu {
+	background: #fff;
+	padding: 5px 2px;
+}	
+.banner .menu .logo {
+	font-size: 17px;
+}	
+.btn {
+	padding: 2px;
+}	
+	
+
+	
+	
+.banner .menu .btn_nav ul li {
+	margin-right: 3px;
+	overflow: hidden;
+}
+
+.banner .menu .btn_nav ul li a {
+	font-size: 16px;
+	padding: 5px 3px;
+}
+
+	
+.translate_sec {
+	padding: 40px 0;
+	overflow: hidden;
+}	
+.translate_sec ul li {
+	margin-bottom: 20px;
+}	
+	
+.translate_sec ul li .language {
+	background: url(../images/language_1.png);
+	background-size: 140% !important;
+	padding: 3px;
+	height: auto;
+}
+.translate_sec ul li .language .language_content {
+	height: 100%;
+	padding: 0px;
+}
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 79px;
+	width: 4px;
+	position: absolute;
+	top: -4px;
+	right: 0;
+}	
+.translate_sec ul li .language .language_content .language_text h2 {
+	font-size: 16px;
+}
+	
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+	background: #fff;
+	padding: 0px 18px;
+}	
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 42px;
+	width: 4px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.translate_sec ul li .language .language_content .language_from from::after {
+	height: 14px;
+	width: 16px;
+	top: 19px;
+	right: 9px;
+	background-size: 100%;
+	background-repeat: no-repeat !important;
+}
+	
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+	background: #fff;
+	padding: 10px 20px;
+	line-height: 19px;
+}	
+	
+	
+	
+	
+.footer img {
+    width: 1300px;
+    margin: 0 0 0 -650px;
+	}	
+.footer .footer_content {
+	padding: 70px 0 0 0;
+}	
+.footer .footer_content .footer_logo {
+	font-size: 38px;
+}	
+.footer .footer_content .footer_buttom .footer_buttom_icon ul li {
+	margin-right: 10px;
+}	
+.footer .footer_content .footer_buttom .footer_buttom_text p {
+	font-size: 12px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+	
+.footer .footer_content .footer_buttom .footer_buttom_icon ul li a {
+	color: #fff;
+	font-size: 13px;
+}
+	
+.store_Wordpairs_details {
+	padding: 50px 0;
+	overflow: hidden;
+}	
+.store_Wordpairs_details .store_Wordpairs_details_bg {
+	background: url(../images/store_Wordpairs_details_bg.png);
+	background-size: cover !important;
+	height: auto;
+	background-repeat: no-repeat !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	overflow: hidden;
+}		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 20px;
+	flex-direction: column;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+	width: 100%;
+	position: relative;
+	margin-bottom: 25px;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2:last-child {	
+	margin-bottom: 0;
+}
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 16px;
+}	
+		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 57px;
+}			
+.store_Wordpairs_details .store_Wordpairs_button ul li {
+	margin-right: 0;
+	width: 100%;
+	margin-bottom: 20px;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_button ul li:last-child {
+	margin-right: 0;
+	margin-bottom: 0;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_button ul li a {
+	font-size: 22px;
+	padding: 10px 34px;
+	display: block;
+	border: 1px solid #341c77;
+	text-align: center;
+}	
+.store_Wordpairs_details .store_Wordpairs_button ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0;
+}	
+.store_Wordpairs_details .store_Wordpairs_button {
+	overflow: hidden;
+	padding: 0 0 0 0;
+	width: 100%;
+}	
+	
+}
+
+
+@media only screen and (max-width:320px) {
+	
+.banner img {
+    width: 480px;
+	margin: 0px 0 0 -240px;
+	}	
+	
+.banner .menu {
+	background: #fff;
+	padding: 5px 2px;
+}	
+.banner .menu .logo {
+	font-size: 17px;
+}	
+.btn {
+	padding: 2px;
+}	
+	
+
+	
+	
+.banner .menu .btn_nav ul li {
+	margin-right: 3px;
+	overflow: hidden;
+}
+
+.banner .menu .btn_nav ul li a {
+	font-size: 16px;
+	padding: 5px 3px;
+}
+
+	
+.translate_sec {
+	padding: 40px 0;
+	overflow: hidden;
+}	
+.translate_sec ul li {
+	margin-bottom: 20px;
+}	
+	
+.translate_sec ul li .language {
+	background: url(../images/language_1.png);
+	background-size: 140% !important;
+	padding: 3px;
+	height: auto;
+}
+.translate_sec ul li .language .language_content {
+	height: 100%;
+	padding: 0px;
+}
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 79px;
+	width: 4px;
+	position: absolute;
+	top: -4px;
+	right: 0;
+}	
+.translate_sec ul li .language .language_content .language_text h2 {
+	font-size: 16px;
+}
+	
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+	background: #fff;
+	padding: 0px 18px;
+}	
+
+.translate_sec ul li .language .language_content .language_from::after {
+	height: 42px;
+	width: 4px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.translate_sec ul li .language .language_content .language_from from::after {
+	height: 14px;
+	width: 16px;
+	top: 19px;
+	right: 9px;
+	background-size: 100%;
+	background-repeat: no-repeat !important;
+}
+	
+.translate_sec ul li .language .language_content .language_from from input[type="text"] {
+	background: #fff;
+	padding: 10px 20px;
+	line-height: 19px;
+}	
+	
+	
+	
+	
+.footer img {
+    width: 1300px;
+    margin: 0 0 0 -650px;
+	}	
+.footer .footer_content {
+	padding: 70px 0 0 0;
+}	
+.footer .footer_content .footer_logo {
+	font-size: 38px;
+}	
+.footer .footer_content .footer_buttom .footer_buttom_icon ul li {
+	margin-right: 10px;
+}	
+.footer .footer_content .footer_buttom .footer_buttom_text p {
+	font-size: 12px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+	
+.footer .footer_content .footer_buttom .footer_buttom_icon ul li a {
+	color: #fff;
+	font-size: 13px;
+}		
+
+.store_Wordpairs_details {
+	padding: 50px 0;
+	overflow: hidden;
+}	
+.store_Wordpairs_details .store_Wordpairs_details_bg {
+	background: url(../images/store_Wordpairs_details_bg.png);
+	background-size: cover !important;
+	height: auto;
+	background-repeat: no-repeat !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24px;
+	overflow: hidden;
+}		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 20px;
+	flex-direction: column;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 {
+	width: 100%;
+	position: relative;
+	margin-bottom: 25px;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2:last-child {	
+	margin-bottom: 0;
+}
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten {
+	padding: 16px;
+}	
+		
+.store_Wordpairs_details .store_Wordpairs_details_bg .store_Wordpairs_details_bg_language_conten .language_from_2 from input[type="text"] {
+	height: 57px;
+}			
+.store_Wordpairs_details .store_Wordpairs_button ul li {
+	margin-right: 0;
+	width: 100%;
+	margin-bottom: 20px;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_button ul li:last-child {
+	margin-right: 0;
+	margin-bottom: 0;
+}
+	
+.store_Wordpairs_details .store_Wordpairs_button ul li a {
+	font-size: 22px;
+	padding: 10px 34px;
+	display: block;
+	border: 1px solid #341c77;
+	text-align: center;
+}	
+.store_Wordpairs_details .store_Wordpairs_button ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0;
+}	
+.store_Wordpairs_details .store_Wordpairs_button {
+	overflow: hidden;
+	padding: 0 0 0 0;
+	width: 100%;
+}			
+	
+}
